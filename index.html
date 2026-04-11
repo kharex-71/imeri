@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>ImerMotors - ავტოსერვისი</title>
+  <meta name="description" content="ImerMotors - პროფესიონალური ავტოსერვისი წეროვანში. 25+ წლიანი გამოცდილება, სწრაფი და სანდო მომსახურება.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Analytics (replace G-XXXXXXXXXX with your ID) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+
+<header>
+  <div class="container header-inner">
+    <div class="clock" id="liveClock">
+      <span id="time">--:--:--</span>
+      <div class="date" id="date">----/--/--</div>
+    </div>
+    <div class="logo">ImerMotors</div>
+    <div class="nav-links">
+      <a href="#" data-nav="about">ჩვენს შესახებ</a>
+      <a href="#" data-nav="gallery">გალერეა</a>
+      <a href="#" data-nav="contact">კონტაქტი</a>
+      <div class="lang-switcher">
+        <button class="lang-btn" id="langBtn">🌐 KA</button>
+        <div class="lang-dropdown" id="langDropdown">
+          <button data-lang="ka">🇬🇪 ქართული</button>
+          <button data-lang="en">🇬🇧 English</button>
+          <button data-lang="ru">🇷🇺 Русский</button>
+        </div>
+      </div>
+    </div>
+    <div class="burger" id="burgerBtn"><i class="fas fa-bars"></i></div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <div class="close-menu" id="closeMenu"><i class="fas fa-times"></i></div>
+  <a href="#" data-nav="about" class="mobile-nav-link">ჩვენს შესახებ</a>
+  <a href="#" data-nav="gallery" class="mobile-nav-link">გალერეა</a>
+  <a href="#" data-nav="contact" class="mobile-nav-link">კონტაქტი</a>
+  <div class="lang-mobile">
+    <a href="#" data-lang="ka">🇬🇪 ქართული</a>
+    <a href="#" data-lang="en">🇬🇧 English</a>
+    <a href="#" data-lang="ru">🇷🇺 Русский</a>
+  </div>
+</div>
+
+<main>
+  <!-- Hero + Packages -->
+  <section class="hero">
+    <div class="container">
+      <h1 id="heroTitle">შენი ავტომობილი — ჩვენი პასუხისმგებლობა</h1>
+      <p id="heroSub">შეთანხმებულ დროში, უსაფრთხოდ გზაზე</p>
+      <div class="cards-grid" id="cardsContainer"></div>
+      <div class="trust-line" id="trustLineText"></div>
+      <div class="payment-info" id="paymentInfo"></div>
+    </div>
+  </section>
+
+  <!-- Trust Section with counters -->
+  <section class="trust-section">
+    <div class="container stats-grid" id="statsGrid"></div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section" id="gallerySection">
+    <div class="container">
+      <h2 class="section-title" id="galleryTitle">გალერეა</h2>
+      <div class="gallery-container">
+        <div class="swiper">
+          <div class="gallery-slides" id="gallerySlides"></div>
+        </div>
+        <div class="gallery-nav">
+          <button id="prevSlide"><i class="fas fa-chevron-left"></i></button>
+          <button id="nextSlide"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        <div class="image-counter" id="imageCounter">1 / 6</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="aboutSection">
+    <div class="container">
+      <h2 id="aboutTitle">ჩვენს შესახებ</h2>
+      <div class="about-card">
+        <p id="aboutText"></p>
+        <p id="aboutEquip" style="margin-top: 16px; color: var(--text-muted);"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contactSection">
+    <div class="container">
+      <h2 id="contactTitle">კონტაქტი</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><i class="fas fa-phone-alt"></i> <strong id="phoneLabel">ტელეფონი:</strong> <br> <a href="tel:+995593082255">გიორგი: +995 593 08 22 55</a><br> <a href="tel:+995511456325">გურამი: +995 511 45 63 25</a></p>
+          <p><i class="fab fa-whatsapp"></i> <strong>WhatsApp:</strong> <br> <a href="https://wa.me/995593082255" target="_blank">გიორგი: +995 593 08 22 55</a><br> <a href="https://wa.me/995511456325" target="_blank">გურამი: +995 511 45 63 25</a></p>
+          <p><i class="fas fa-map-marker-alt"></i> <strong id="addressLabel">მისამართი:</strong> წეროვანი</p>
+          <p><i class="far fa-clock"></i> <strong id="hoursLabel">სამუშაო საათები:</strong> ყოველდღე 9-დან 20 საათამდე</p>
+          <div class="social-icons" id="socialIcons"></div>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d556.1541403810668!2d44.7141760668571!3d41.89315797348006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404467140de52393%3A0x1ed52b8bf4715211!2z4YOQ4YOV4YOi4YOd4YOh4YOU4YOg4YOV4YOY4YOh4YOY!5e0!3m2!1sen!2sge!4v1775907645555!5m2!1sen!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>© ImerMotors — სანდოობა და ხარისხი</footer>
+
+<div class="float-wa" id="floatWhatsApp"><i class="fab fa-whatsapp"></i></div>
+
+<script src="script.js"></script>
+</body>
+</html>
