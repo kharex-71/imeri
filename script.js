@@ -6,9 +6,36 @@ const translations = {
       trustLine: "ჩვენ ვიღებთ პასუხისმგებლობას, რომ თქვენი ავტომობილი შეთანხმებულ დროში ჩაგბარდებათ და გზაზე უსაფრთხოდ იმოძრავებს.",
       paymentInfo: "შეფასების საფასური: 10-20₾\nსაბოლოო თანხას იხდით სამუშაოს დასრულების შემდეგ",
       packages: {
-        standard: { title: "სტანდარტული", short: "სწრაფი გადაწყვეტა მარტივი პრობლემებისთვის", desc: "✔️ დიაგნოსტიკა\n✔️ ძირითადი ტექნიკური შეკეთება\n✔️ საჭირო დეტალების შერჩევა", process: "1. შეფასება\n2. სწრაფი შეკეთება\n3. ჩაბარება", time: "მოკლე ვადებში", price: "ხელმისაწვდომი", cta: "დაიწყე WhatsApp-ში" },
-        premium: { title: "პრემიუმი", short: "სრული კონტროლი და ხარისხიანი შედეგი", desc: "✔️ სრული დიაგნოსტიკა\n✔️ ყველა პრობლემის აღმოჩენა\n✔️ დეტალური შეკეთება", process: "1. სრული შემოწმება\n2. პრობლემების იდენტიფიკაცია\n3. სრულყოფილი შეკეთება", time: "ოპტიმალური", price: "საშუალო", cta: "შეკვეთა WhatsApp-ში" },
-        express: { title: "ექსპრესი", short: "მაქსიმალური კომფორტი — ჩვენ ყველაფერს ვაგვარებთ", desc: "✔️ სრული პასუხისმგებლობა ავტომობილზე\n✔️ ყველა ტექნიკური პრობლემის გადაწყვეტა\n✔️ მინიმალური ჩართულობა შენგან", process: "1. სრული შეფასება\n2. სრული მართვა ჩვენი მხრიდან\n3. მზად ავტომობილის ჩაბარება", time: "რაც შეიძლება სწრაფად", price: "პრემიუმ", cta: "დაწყება ახლავე", recommended: "რეკომენდირებული" }
+        standard: {
+          title: "სტანდარტული",
+          short: "მოაგვარე კონკრეტული პრობლემა სწრაფად",
+          desc: "✔️ შენს მიერ მითითებული პრობლემის შემოწმება\n✔️ დაზიანებული ნაწილის დაშლა და შეკეთება\n✔️ საჭირო დეტალის შეცვლა ან აღდგენა\n✔️ აწყობა და საბოლოო შემოწმება",
+          process: "1. პრობლემის დადასტურება\n2. საჭირო ნაწილის დაშლა და შეკეთება\n3. აწყობა და ჩაბარება",
+          time: "5–10 დღე",
+          price: "ხელმისაწვდომი",
+          cta: "დაიწყე WhatsApp-ში"
+        },
+      
+        premium: {
+          title: "პრემიუმი",
+          short: "სრული ანალიზი და სწორი გადაწყვეტილება",
+          desc: "✔️ სრული დიაგნოსტიკა (ელექტრო + სავალი ნაწილი)\n✔️ ყველა პრობლემის აღმოჩენა\n✔️ სამუშაოების სწორი დაგეგმვა\n✔️ ნაწილების მოძიებაში დახმარება\n✔️ შეთანხმებული სამუშაოების შესრულება",
+          process: "1. სრული დიაგნოსტიკა\n2. პრობლემების იდენტიფიკაცია და დაგეგმვა\n3. ეტაპობრივი შეკეთება და ჩაბარება",
+          time: "4–8 დღე",
+          price: "საშუალო",
+          cta: "შეკვეთა WhatsApp-ში"
+        },
+      
+        express: {
+          title: "ექსპრესი",
+          short: "სრული მომსახურება — შენს ჩართულობის გარეშე",
+          desc: "✔️ მანქანის წამოყვანა საჭიროების შემთხვევაში\n✔️ სრული დიაგნოსტიკა\n✔️ დაშლა → აღდგენა → შეღებვა → აწყობა\n✔️ ნაწილების მოძიება და შეძენა\n✔️ სრული ტექნიკური შემოწმება და მზად ჩაბარება",
+          process: "1. ავტომობილის მიღება და სრული შეფასება\n2. პროცესის სრული მართვა ჩვენი მხრიდან\n3. სრულად გამართული ავტომობილის ჩაბარება",
+          time: "მაქსიმუმ 5 დღე",
+          price: "პრემიუმ",
+          cta: "დაწყება ახლავე",
+          recommended: "რეკომენდირებული"
+        }
       },
       stats: ["25+ წლიანი გამოცდილება", "1000+ შეკეთებული ავტომობილი", "სწრაფი მომსახურება"],
       gallery: "გალერეა",
@@ -27,9 +54,36 @@ const translations = {
       trustLine: "We take responsibility to deliver your car on time and ensure it drives safely.",
       paymentInfo: "Assessment fee: 10-20 GEL\nFinal payment after completion",
       packages: {
-        standard: { title: "Standard", short: "Quick solution for simple problems", desc: "✔️ Diagnostics\n✔️ Basic technical repair\n✔️ Parts selection", process: "1. Assessment\n2. Fast repair\n3. Delivery", time: "Short terms", price: "Affordable", cta: "Start on WhatsApp" },
-        premium: { title: "Premium", short: "Full control and quality result", desc: "✔️ Full diagnostics\n✔️ Detect all issues\n✔️ Detailed repair", process: "1. Complete inspection\n2. Problem identification\n3. Perfect repair", time: "Optimal", price: "Medium", cta: "Order on WhatsApp" },
-        express: { title: "Express", short: "Maximum comfort — we handle everything", desc: "✔️ Full responsibility\n✔️ Solve all technical issues\n✔️ Minimal involvement", process: "1. Full assessment\n2. Complete management by us\n3. Ready car delivery", time: "As fast as possible", price: "Premium", cta: "Start now", recommended: "Recommended" }
+        standard: {
+          title: "Standard",
+          short: "Fix a specific problem quickly",
+          desc: "✔️ Verification of your reported issue\n✔️ Disassembly and repair of the damaged part\n✔️ Replacement or restoration of necessary components\n✔️ Reassembly and final check",
+          process: "1. Problem confirmation\n2. Disassembly and repair\n3. Reassembly and delivery",
+          time: "5–10 days",
+          price: "Affordable",
+          cta: "Start on WhatsApp"
+        },
+      
+        premium: {
+          title: "Premium",
+          short: "Full analysis and the right solution",
+          desc: "✔️ Full diagnostics (electrical + suspension)\n✔️ Identification of all issues\n✔️ Proper repair planning\n✔️ Assistance with parts sourcing\n✔️ Execution of agreed work",
+          process: "1. Full diagnostics\n2. Issue identification and planning\n3. Step-by-step repair and delivery",
+          time: "4–8 days",
+          price: "Mid-range",
+          cta: "Order via WhatsApp"
+        },
+      
+        express: {
+          title: "Express",
+          short: "Full service — no involvement needed",
+          desc: "✔️ Vehicle pickup if needed\n✔️ Full diagnostics\n✔️ Disassembly → repair → painting → reassembly\n✔️ Parts sourcing and purchasing\n✔️ Full technical inspection and ready delivery",
+          process: "1. Vehicle intake and full evaluation\n2. Full process management by our team\n3. Delivery of a fully restored vehicle",
+          time: "Up to 5 days",
+          price: "Premium",
+          cta: "Start Now",
+          recommended: "Recommended"
+        }
       },
       stats: ["25+ years of experience", "1000+ cars repaired", "Fast service"],
       gallery: "Gallery",
@@ -48,9 +102,36 @@ const translations = {
       trustLine: "Мы берем ответственность за своевременную и безопасную работу вашего авто.",
       paymentInfo: "Плата за оценку: 10-20 GEL\nОкончательная оплата после завершения",
       packages: {
-        standard: { title: "Стандарт", short: "Быстрое решение простых проблем", desc: "✔️ Диагностика\n✔️ Базовый ремонт\n✔️ Подбор деталей", process: "1. Оценка\n2. Быстрый ремонт\n3. Выдача", time: "Короткие сроки", price: "Доступно", cta: "Начать в WhatsApp" },
-        premium: { title: "Премиум", short: "Полный контроль и качество", desc: "✔️ Полная диагностика\n✔️ Выявление всех проблем\n✔️ Детальный ремонт", process: "1. Полный осмотр\n2. Идентификация проблем\n3. Идеальный ремонт", time: "Оптимально", price: "Средне", cta: "Заказать в WhatsApp" },
-        express: { title: "Экспресс", short: "Максимальный комфорт — мы всё решаем", desc: "✔️ Полная ответственность\n✔️ Решение всех проблем\n✔️ Минимум участия", process: "1. Полная оценка\n2. Полное управление нами\n3. Выдача готового авто", time: "Максимально быстро", price: "Премиум", cta: "Начать сейчас", recommended: "Рекомендуемый" }
+        standard: {
+          title: "Стандарт",
+          short: "Быстрое решение конкретной проблемы",
+          desc: "✔️ Проверка указанной вами проблемы\n✔️ Разборка и ремонт повреждённой детали\n✔️ Замена или восстановление необходимых компонентов\n✔️ Сборка и финальная проверка",
+          process: "1. Подтверждение проблемы\n2. Разборка и ремонт\n3. Сборка и передача",
+          time: "5–10 дней",
+          price: "Доступно",
+          cta: "Начать в WhatsApp"
+        },
+      
+        premium: {
+          title: "Премиум",
+          short: "Полная диагностика и правильное решение",
+          desc: "✔️ Полная диагностика (электрика + ходовая)\n✔️ Обнаружение всех проблем\n✔️ Правильное планирование ремонта\n✔️ Помощь в подборе запчастей\n✔️ Выполнение согласованных работ",
+          process: "1. Полная диагностика\n2. Выявление проблем и планирование\n3. Поэтапный ремонт и передача",
+          time: "4–8 дней",
+          price: "Средний",
+          cta: "Заказать через WhatsApp"
+        },
+      
+        express: {
+          title: "Экспресс",
+          short: "Полный сервис — без вашего участия",
+          desc: "✔️ Заберём автомобиль при необходимости\n✔️ Полная диагностика\n✔️ Разборка → восстановление → покраска → сборка\n✔️ Подбор и покупка запчастей\n✔️ Полная проверка и готовый результат",
+          process: "1. Приём автомобиля и полная оценка\n2. Полное управление процессом с нашей стороны\n3. Передача полностью готового автомобиля",
+          time: "До 5 дней",
+          price: "Премиум",
+          cta: "Начать сейчас",
+          recommended: "Рекомендуется"
+        }
       },
       stats: ["25+ лет опыта", "1000+ отремонтированных авто", "Быстрое обслуживание"],
       gallery: "Галерея",
