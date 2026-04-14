@@ -4,7 +4,7 @@ const translations = {
       heroTitle: "შენი ავტომობილი — ჩვენი პასუხისმგებლობა",
       heroSub: "შეთანხმებულ დროში, უსაფრთხოდ გზაზე",
       trustLine: "ჩვენ ვიღებთ პასუხისმგებლობას, რომ თქვენი ავტომობილი შეთანხმებულ დროში ჩაგბარდებათ და გზაზე უსაფრთხოდ იმოძრავებს.",
-      paymentInfo: "შეფასების საფასური: 10-20₾\nსაბოლოო თანხას იხდით სამუშაოს დასრულების შემდეგ",
+      paymentInfo: "ფოტოებზე დაყრდნობით პროფესიონალური შეფასება WhatsApp-ში — 15₾.\nშეფასების შემდეგ გინიშნავთ ვიზიტის დროს და გაცნობებთ სამუშაოს პირველ ეტაპებს.\nსაბოლოო ღირებულება და შესრულების ვადები დგინდება ადგილზე დიაგნოსტიკის საფუძველზე.",
       packages: {
         standard: {
           title: "სტანდარტული",
@@ -12,7 +12,7 @@ const translations = {
           desc: "✔️ შენს მიერ მითითებული პრობლემის შემოწმება\n✔️ დაზიანებული ნაწილის დაშლა და შეკეთება\n✔️ საჭირო დეტალის შეცვლა ან აღდგენა\n✔️ აწყობა და საბოლოო შემოწმება",
           process: "1. პრობლემის დადასტურება\n2. საჭირო ნაწილის დაშლა და შეკეთება\n3. აწყობა და ჩაბარება",
           time: "5–10 დღე",
-          price: "ხელმისაწვდომი",
+          price: "50 ლარი",
           cta: "დაიწყე WhatsApp-ში"
         },
       
@@ -22,7 +22,7 @@ const translations = {
           desc: "✔️ სრული დიაგნოსტიკა (ელექტრო + სავალი ნაწილი)\n✔️ ყველა პრობლემის აღმოჩენა\n✔️ სამუშაოების სწორი დაგეგმვა\n✔️ ნაწილების მოძიებაში დახმარება\n✔️ შეთანხმებული სამუშაოების შესრულება",
           process: "1. სრული დიაგნოსტიკა\n2. პრობლემების იდენტიფიკაცია და დაგეგმვა\n3. ეტაპობრივი შეკეთება და ჩაბარება",
           time: "4–8 დღე",
-          price: "საშუალო",
+          price: "100 ლარი",
           cta: "შეკვეთა WhatsApp-ში"
         },
       
@@ -32,7 +32,7 @@ const translations = {
           desc: "✔️ მანქანის წამოყვანა საჭიროების შემთხვევაში\n✔️ სრული დიაგნოსტიკა\n✔️ დაშლა → აღდგენა → შეღებვა → აწყობა\n✔️ ნაწილების მოძიება და შეძენა\n✔️ სრული ტექნიკური შემოწმება და მზად ჩაბარება",
           process: "1. ავტომობილის მიღება და სრული შეფასება\n2. პროცესის სრული მართვა ჩვენი მხრიდან\n3. სრულად გამართული ავტომობილის ჩაბარება",
           time: "მაქსიმუმ 5 დღე",
-          price: "პრემიუმ",
+          price: "150 ლარი",
           cta: "დაწყება ახლავე",
           recommended: "რეკომენდირებული"
         }
@@ -52,7 +52,7 @@ const translations = {
       heroTitle: "Your car — our responsibility",
       heroSub: "On time, safely on the road",
       trustLine: "We take responsibility to deliver your car on time and ensure it drives safely.",
-      paymentInfo: "Assessment fee: 10-20 GEL\nFinal payment after completion",
+      paymentInfo: "Professional assessment based on photos via WhatsApp — 15₾.\nAfter the assessment, we will schedule a visit and inform you about the first stages of the work.\nThe final cost and completion dates are determined based on on-site diagnostics.",
       packages: {
         standard: {
           title: "Standard",
@@ -60,7 +60,7 @@ const translations = {
           desc: "✔️ Verification of your reported issue\n✔️ Disassembly and repair of the damaged part\n✔️ Replacement or restoration of necessary components\n✔️ Reassembly and final check",
           process: "1. Problem confirmation\n2. Disassembly and repair\n3. Reassembly and delivery",
           time: "5–10 days",
-          price: "Affordable",
+          price: "50 money",
           cta: "Start on WhatsApp"
         },
       
@@ -70,7 +70,7 @@ const translations = {
           desc: "✔️ Full diagnostics (electrical + suspension)\n✔️ Identification of all issues\n✔️ Proper repair planning\n✔️ Assistance with parts sourcing\n✔️ Execution of agreed work",
           process: "1. Full diagnostics\n2. Issue identification and planning\n3. Step-by-step repair and delivery",
           time: "4–8 days",
-          price: "Mid-range",
+          price: "100 money",
           cta: "Order via WhatsApp"
         },
       
@@ -80,7 +80,7 @@ const translations = {
           desc: "✔️ Vehicle pickup if needed\n✔️ Full diagnostics\n✔️ Disassembly → repair → painting → reassembly\n✔️ Parts sourcing and purchasing\n✔️ Full technical inspection and ready delivery",
           process: "1. Vehicle intake and full evaluation\n2. Full process management by our team\n3. Delivery of a fully restored vehicle",
           time: "Up to 5 days",
-          price: "Premium",
+          price: "150 money",
           cta: "Start Now",
           recommended: "Recommended"
         }
@@ -100,7 +100,7 @@ const translations = {
       heroTitle: "Ваш автомобиль — наша ответственность",
       heroSub: "В срок, безопасно на дороге",
       trustLine: "Мы берем ответственность за своевременную и безопасную работу вашего авто.",
-      paymentInfo: "Плата за оценку: 10-20 GEL\nОкончательная оплата после завершения",
+      paymentInfo: "Профессиональная оценка на основе фотографий через WhatsApp — 15₾.\nПосле оценки мы назначим визит и сообщим вам о первых этапах работы.\nОкончательная стоимость и сроки завершения определяются на основе диагностики на месте",
       packages: {
         standard: {
           title: "Стандарт",
@@ -108,7 +108,7 @@ const translations = {
           desc: "✔️ Проверка указанной вами проблемы\n✔️ Разборка и ремонт повреждённой детали\n✔️ Замена или восстановление необходимых компонентов\n✔️ Сборка и финальная проверка",
           process: "1. Подтверждение проблемы\n2. Разборка и ремонт\n3. Сборка и передача",
           time: "5–10 дней",
-          price: "Доступно",
+          price: "50 деньги",
           cta: "Начать в WhatsApp"
         },
       
@@ -118,7 +118,7 @@ const translations = {
           desc: "✔️ Полная диагностика (электрика + ходовая)\n✔️ Обнаружение всех проблем\n✔️ Правильное планирование ремонта\n✔️ Помощь в подборе запчастей\n✔️ Выполнение согласованных работ",
           process: "1. Полная диагностика\n2. Выявление проблем и планирование\n3. Поэтапный ремонт и передача",
           time: "4–8 дней",
-          price: "Средний",
+          price: "100 деньги",
           cta: "Заказать через WhatsApp"
         },
       
@@ -128,7 +128,7 @@ const translations = {
           desc: "✔️ Заберём автомобиль при необходимости\n✔️ Полная диагностика\n✔️ Разборка → восстановление → покраска → сборка\n✔️ Подбор и покупка запчастей\n✔️ Полная проверка и готовый результат",
           process: "1. Приём автомобиля и полная оценка\n2. Полное управление процессом с нашей стороны\n3. Передача полностью готового автомобиля",
           time: "До 5 дней",
-          price: "Премиум",
+          price: "150 деньги",
           cta: "Начать сейчас",
           recommended: "Рекомендуется"
         }
